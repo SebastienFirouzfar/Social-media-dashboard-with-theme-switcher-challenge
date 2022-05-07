@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Outfit&family=Overpass:wght@300&family=Poppins:wght@200&family=Ubuntu:wght@500&display=swap');
+$font-family :'Inter', sans-serif ;
 .container{  
     width: 100%; 
     background-color: rgb(205, 190, 190); 
@@ -7,5 +9,9 @@
     flex-direction: row;
     grid-gap: 10px;
     justify-content: center;
+    }
+
+    h5, p {
+        font-family:$font-family;
     }
 }
