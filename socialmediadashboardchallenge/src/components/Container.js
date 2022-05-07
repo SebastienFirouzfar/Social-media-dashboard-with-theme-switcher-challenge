@@ -1,13 +1,11 @@
 import React from 'react'
 import "../App.scss"
-
+import {listDashboard} from "../data/dataDashboardSocialMedia"
+import {ListSocialMedias} from "../components/ListSocialMedia"
 export const Container = () => {
     return (
-        <div className="container">
-            <div className="item-container">
-                
-            </div>
-            
+        <div>
+            <ListSocialMedias data={listDashboard}/>
         </div>
     )
 }
