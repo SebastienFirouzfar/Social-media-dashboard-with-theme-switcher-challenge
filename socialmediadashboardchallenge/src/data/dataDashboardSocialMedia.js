@@ -20,7 +20,7 @@ const infoNathan = [
     {
         id: 3, 
         altImage : "image",
-        socialMedia : "images/icon-instagram.svg", 
+        socialMedia : "icon-instagram.svg", 
         name: "@realnathanf", 
         numberFollowers :  "11K", 
         followers : "FOLLOWERS", 
@@ -29,7 +29,7 @@ const infoNathan = [
     {
         id: 4, 
         altImage : "image",
-        socialMedia : "images/icon-youtube.svg", 
+        socialMedia : "icon-youtube.svg", 
         name: "@realnathanf", 
         numberFollowers :  "8239", 
         followers : "SUBSCRIBERS", 
@@ -38,4 +38,4 @@ const infoNathan = [
 
 ]
 
-export const listDashboard = [infoNathan]
+export const listDashboard = [infoNathan]; 
