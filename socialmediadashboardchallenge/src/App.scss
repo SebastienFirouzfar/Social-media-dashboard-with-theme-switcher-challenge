@@ -2,39 +2,60 @@
 $font-family :'Inter', sans-serif ;
 $VeryDarkBlueBG: hsl(230, 17%, 14%); 
 $VeryDarkBlueTopBGPattern : hsl(232, 19%, 15%);
+$textColor:hsl(0, 0%, 100%); 
 
 body{
     background-color:$VeryDarkBlueBG;
 }
+
 .container{  
     width: 100%; 
-    
-    .row{
-    display:flex; 
-    flex-direction: row;
-    grid-gap: 10px;
-    justify-content: center;
-    }
+    position: relative;
+    top: 30px;
+        .row{
+        display:flex; 
+        flex-direction: row;
+        grid-gap: 10px;
+        justify-content: center;
+        }
 
-    .card{
-        border-style: solid;
-        width: 13%;
-        border-radius: 10px;
-    }
+        .card{
+            border-style: solid;
+            width: 17%;
+            border-radius: 10px;
+        }
 
-    .cardSocialMedia{
-        display: flex;
-        flex-direction: row; 
-    }
+        .cardSocialMedia{
+            display: flex;
+            flex-direction: row; 
+        }
 
-    h5, p {
-        font-family:$font-family;
-        text-align: center; 
-        color: hsl(0, 0%, 100%);
-    }
+        h5, p{
+            font-family:$font-family;
+            text-align: center; 
+            color: hsl(0, 0%, 100%);
+        }
 
-    .numberFollowers{
-        font-size:30px;
-        margin:4px;
-    }
+        .numberFollowers{
+            font-size:30px;
+            margin:4px;
+        }
+}
+
+
+.containerHeader {
+    width: 21%; 
+
+    .rowHeader{
+        display:flex; 
+        flex-direction: column;
+        position: relative;
+        left: 68%;
+        
+        }
+
+        h2, p{
+            color: $textColor;
+            margin: 0; 
+        }
 }
