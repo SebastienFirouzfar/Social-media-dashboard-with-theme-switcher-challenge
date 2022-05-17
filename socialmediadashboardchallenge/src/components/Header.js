@@ -8,7 +8,6 @@ export const Header = () => {
                 <h2>Social Media Dashboard</h2>
                 <p>Total Followers: 23,004</p>
             </div>
-            
         </div>
     )
 }

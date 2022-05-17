@@ -1,7 +1,7 @@
 const infoNathan = [
     {
         id: 1, 
-        altImage : "image",
+        altImage : "iconFacebook",
         socialMedia : "icon-facebook.svg", 
         name: "@nathanf", 
         numberFollowers :  "1987", 
@@ -10,7 +10,7 @@ const infoNathan = [
     }, 
     {
         id: 2, 
-        altImage : "image",
+        altImage : "iconYoutube",
         socialMedia : "icon-youtube.svg", 
         name: "@nathanf", 
         numberFollowers :  "1044", 
