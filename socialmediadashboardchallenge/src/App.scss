@@ -59,3 +59,17 @@ body{
             margin: 0; 
         }
 }
+
+.rowSocialMedia{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    margin-right: 25%;
+    .img-social-media{
+        width: 15%;
+        height: 27px;
+        position: relative;
+        top: 16px;
+        right: 10px;
+    }
+}

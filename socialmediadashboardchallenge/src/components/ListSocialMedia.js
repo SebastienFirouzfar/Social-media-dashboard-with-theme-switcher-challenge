@@ -5,7 +5,12 @@ export const Card = (props) => {
   const { infoAbout } = props;
   return (
     <div className="card" id="card-about">
-        <h5><img src={process.env.PUBLIC_URL + `../../images/${infoAbout.socialMedia}`}alt="s"/>{infoAbout.name}</h5>
+        <div className="containerSocialMedia">
+          <div className="rowSocialMedia">
+            <h5>{infoAbout.name}</h5>
+            <img className="img-social-media" src={process.env.PUBLIC_URL + `../../images/${infoAbout.socialMedia}`}alt="s"/>
+          </div>
+        </div>
         <h5 className="numberFollowers">{infoAbout.numberFollowers}</h5>
         <h5>{infoAbout.followers}</h5>
         <p>{infoAbout.gainFollowers}</p>

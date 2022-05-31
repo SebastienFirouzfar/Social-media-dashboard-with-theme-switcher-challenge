@@ -10,8 +10,8 @@ const infoNathan = [
     }, 
     {
         id: 2, 
-        altImage : "iconYoutube",
-        socialMedia : "icon-youtube.svg", 
+        altImage : "iconTwitter",
+        socialMedia : "icon-twitter.svg", 
         name: "@nathanf", 
         numberFollowers :  "1044", 
         followers : "FOLLOWERS", 
