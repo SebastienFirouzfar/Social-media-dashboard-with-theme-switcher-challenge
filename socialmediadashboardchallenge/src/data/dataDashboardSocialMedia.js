@@ -19,7 +19,7 @@ const infoNathan = [
     }, 
     {
         id: 3, 
-        altImage : "image",
+        altImage : "iconInstagram",
         socialMedia : "icon-instagram.svg", 
         name: "@realnathanf", 
         numberFollowers :  "11K", 
@@ -28,12 +28,12 @@ const infoNathan = [
     }, 
     {
         id: 4, 
-        altImage : "image",
+        altImage : "iconYoutube",
         socialMedia : "icon-youtube.svg", 
         name: "@realnathanf", 
         numberFollowers :  "8239", 
         followers : "SUBSCRIBERS", 
-        gainFollowers : "1099 Today"
+        gainFollowers : "144 Today"
     }
 
 ]
